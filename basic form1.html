@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Text/Name : <input type="text" placeholder="Enter your name" required pattern="[a-zA-Z]{3,5}" title="min 3 and max=5 letters...! "> <br><br>
+
+        Email : <input type="email"> <br><br>
+        password : <input type="password"> <br><br>
+        color : <input type="color"> <br><br>
+        country : 
+        <select>
+            <option hidden>---select your country---</option>
+            <option>India</option>
+            <option selected>Usa</option>
+            <option>Australlia</option>
+        </select>
+        <br></br>
+
+        Gender : <input type="radio" name="gender">Male
+                 <input type="radio" name="gender">Female
+                 <br><br>
+
+        Languages : <input type="checkbox"> Hindi
+                    <input type="checkbox"> English
+                    <input type="checkbox"> Gujarati   
+                    <input type="checkbox"> Tamil
+                    <br><br>   
+        
+        Mobile : <input type="text" placeholder="Enter Mobile" required pattern="[0-9]{10}" tittle="10 digits only...!"> <br><br>
+        
+        Upload an image : <input type="file"> <br><br>
+        textarea rows : <input type="5" cols="40"> </textarea> <br><br>
+        
+        <input type="submit" value="sign up"> <br><br>
+        <input type="reset" value="ABCD"> <br><br>
+    </form>
+</body>
+</html>
