@@ -1,0 +1,29 @@
+
+#ca {
+    background-color: rgb(229, 225, 225);
+}
+
+#tab {
+    max-width: 340px;
+}
+
+.BT {
+    background-color: blue;
+}
+
+#date {
+    background-color: rgb(229, 225, 225);
+}
+
+.ab {
+    background-color: rgb(229, 225, 225);
+}
+#subtotal{
+    background-color:  rgb(229, 225, 225)
+}
+#tax{
+    background-color:  rgb(229, 225, 225);
+}
+#grandtotal{
+   background-color:  rgb(229, 225, 225);
+}
