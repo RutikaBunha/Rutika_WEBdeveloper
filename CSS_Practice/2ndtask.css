@@ -1,0 +1,10 @@
+
+
+    table, th, td{
+    border: 2px solid rgb(82, 37, 243);
+    border-width: 5px;
+}
+#tab{
+max-width: 670px;
+}
+
