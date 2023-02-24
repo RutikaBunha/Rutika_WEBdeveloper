@@ -1,0 +1,33 @@
+.x {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+
+    transform: translate(200px, 0px);
+}
+
+.y {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+    transform: rotate(-56deg);
+
+    color: #fff;
+}
+
+.y b {
+    background-color: green;
+}
+
+
+.z {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+
+    color: black;
+    transform: scale(3.5);
+
+    margin-left: 500px;
+}
