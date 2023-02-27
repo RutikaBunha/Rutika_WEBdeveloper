@@ -1,0 +1,33 @@
+.x{
+    filter: blur(2px)
+}
+
+.blur
+{
+    filter: brightness(1.5);
+}
+
+.bright{
+filter: contrast(100%);
+}
+
+.contrast{
+filter: drop-shadow(100%);
+}
+
+.invert{
+filter: grayscale(70%);
+}
+
+.saturate{
+filter: saturate(80%);
+}
+
+.hue{
+filter: hue-rotate(-75deg);
+}
+
+.shadow{
+filter: drop-shadow(0 0 30px red
+);
+}
