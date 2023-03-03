@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .foreground{
+            height: 250px;
+            width:300px;
+            background: lightcoral;
+            color: blue;
+            font-size: 30px;
+            margin: 50px;
+            position:relative;
+            top: 50%;
+            
+        }
+        .background{
+            height: 250px;
+            width:250px;
+            background:url(https://images.ctfassets.net/hrltx12pl8hq/a2hkMAaruSQ8haQZ4rBL9/8ff4a6f289b9ca3f4e6474f29793a74a/nature-image-for-website.jpg?fit=fill&w=480&h=320);
+            background-size: 100% 100%;
+            color:rgb(187, 232, 25);
+            font-size: 30px;
+            margin: 50px;
+            z-index: -3;
+            position: absolute;
+            
+        }
+        .zindex{ height: 300px;
+            width:300px;
+            background:url(https://images.ctfassets.net/hrltx12pl8hq/a2hkMAaruSQ8haQZ4rBL9/8ff4a6f289b9ca3f4e6474f29793a74a/nature-image-for-website.jpg?fit=fill&w=480&h=320);
+            background-size: 100% 100%;
+            color:darkorange;
+            font-size: 30px;
+            margin: 250px;
+            z-index:1;
+            position: absolute;
+           
+
+        }
+    </style>
+</head>
+<body>
+    <!-- absolute ==> always for CHILD 
+
+    relative ==> always for PARENT  -->
+
+    <div class="foreground">
+        <span> hello </span> 
+    <img src="https://images.ctfassets.net/hrltx12pl8hq/a2hkMAaruSQ8haQZ4rBL9/8ff4a6f289b9ca3f4e6474f29793a74a/nature-image-for-website.jpg?fit=fill&w=480&h=320" alt="" height="200px" width="300px">
+</div>
+
+<div class="background">
+    rutika
+</div>
+
+<div class="zindex">
+    z-index
+</div>
+</body>
+</html>

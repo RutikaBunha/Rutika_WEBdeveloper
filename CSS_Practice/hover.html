@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            height: 200px;
+            width: 200px;
+            background: lightskyblue;
+            /* text-align: center;
+            line-height: 200px;*/
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 30px;
+             margin: 10px auto;
+            position: relative;
+            overflow: hidden;
+            z-index: 0;
+            /* box-shadow: 3px 3px 4px purple inset,5px 5px 7px yellowgreen inset,-3px -3px 4px maroon,-5px -5px 7px cyan; */
+
+        }
+
+         .effect {
+            height: 200px;
+            width: 200px;
+            background:lightcoral;
+            position: absolute;
+            top: 0;
+            left: -100%;
+
+            transition: 1s;
+            z-index: -1;
+
+            /* box-shadow: 10px 10px 30px purple inset; */
+        }
+
+        .main:hover .effect
+        {
+            left: 0;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        hover me
+        <div class="effect"></div>
+    </div>
+</body>
+
+</html>

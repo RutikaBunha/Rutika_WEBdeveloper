@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        .main {
+            height: 400px;
+            width: 600px;
+            background: url(https://augustav.com/images/bottom1.jpg);
+            background-size: 120% 120%;
+            background-origin: border-box;
+            background-position: -50px 0;
+
+            border: 20px solid rgba(255, 255, 255, .34);
+            /* padding: 50px 0; */
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1s
+        }
+
+        .child {
+            height: 250px;
+            width: 500px;
+            background: transparent;
+            border: 10px solid white;
+            padding: 8px;
+            font-size: 22px;
+            color: #fff;
+            font-family: cursive;
+            letter-spacing: 10px;
+            /* display: none; */
+            opacity: 0;
+            margin-left: -20px;
+            transition: 2s;
+
+
+        }
+
+        .main:hover {
+            background-position: 0px 0;
+        }
+
+        :hover .child {
+            display: block;
+            opacity: 1;
+            margin-left: 0px;
+        }
+
+        p {
+            line-height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus esse excepturi officia ratione delectus
+        voluptas, debitis ipsa laboriosam deserunt dignissimos? Dolorum possimus officiis tenetur, rerum dolore facilis
+        cupiditate et aliquam?
+    </p>
+    <div class="main">
+        <div class="child">
+            NEW ARRIVALS
+        </div>
+    </div>
+
+
+</body>
+
+</html>
