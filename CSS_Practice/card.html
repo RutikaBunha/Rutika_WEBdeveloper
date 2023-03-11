@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            height: 400px;
+            width: 700px;
+            /* background: coral; */
+            margin: 100px auto;
+            position: relative;
+            z-index: 0;
+        }
+
+        .card {
+            height: 400px;
+            width: 700px;
+            background: rgba(0, 0, 0, .12);
+            backdrop-filter: blur (10px);
+
+        }
+
+        .circle {
+            height: 200px;
+            width: 200px;
+            background: linear-gradient(red blue);
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            z-index: -1;
+        }
+    </style>                   
+</head>
+
+<body>
+    <div class="main">
+        <div class="card"></div>
+        <div class="circle"></div>
+    </div>
+</body>
+
+</html>
