@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        .header{
+            height: 150px;
+            background-color:burlywood;
+            display: grid;
+            grid-template-columns: 2fr 8fr;
+            /* grid-template-rows: 8fr 10fr; */
+         } 
+         .x ,.y ,.z{
+            border: 2px solid;
+         }
+        .nav{
+            height: 50px;
+            background-color:lightblue;
+        }
+        .content{
+            height: 350px;
+            background-color:lightpink;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+        }
+        .test {
+            display: grid;
+        }
+        .footer{
+            height: 150px;
+            background-color: lightgreen; 
+        }
+        .test1{
+            display: grid;
+            grid-template-columns:1fr 2fr 7fr ;
+        }
+       
+        @media(max-width:500px)
+        {
+.header{
+    grid-template-columns: 12fr ;
+}
+
+.content{
+    grid-template-columns: 1fr 1fr;
+ }
+
+ .test1{
+   grid-template-columns: 1fr;
+  }
+  .test1{
+    grid-template-columns: 1fr;
+              }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Logo</div>
+        <div class="cname">Company Name</div>
+    </div>
+
+    <div class="nav">Nav</div>
+
+    <div class="content">
+        <div class="x">x1</div>
+
+        <div class="x test">x2
+
+            <div class="y test1">parts</div>
+            <div class="z">z1</div>
+            <div class="z">z1</div>
+            <div class="z">z1</div>
+        </div>
+
+        <div class="y">x3</div>
+    </div>
+
+    <div class="x"></div>
+    <div class="x"></div>
+
+    <div class="footer"></div>
+</body>
+</html>
