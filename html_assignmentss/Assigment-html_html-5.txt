@@ -1,0 +1,132 @@
+HTML Assignment
+Module(HTML)-1 
+
+1.Are the HTML tags and elements the same thing?
+Ans. No.
+     HTML-Tags ==> html tags are building blocks of HTML Page.
+     They tell the browser how it should display content to the user.
+     A tag starts with a < bracket and ends with a > bracket.
+     HTML Element ==> HTML element is everything from the start tag to the end tag.
+
+2.What are tags and attributes in HTML? 
+Ans. HTML-Tags==> html tags are building blocks of HTML Page.
+     They tell the browser how it should display content to the user.
+     A tag starts with a < bracket and ends with a > bracket. 
+     HTML Attributes ==> All HTML elements can have attributes. 
+     Attributes provide additional information about elements. 
+     Attributes are always specified in the start tag
+
+3.What are void elements in HTML?
+Ans. A void elements self closing tag. The following is a complete list of the void elements in HTML.
+     BR, HR, Meta, Input, Img, Embed.
+
+4.What are HTML Entities?
+Ans. An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; ).
+
+5.What are different types of lists in HTML?
+Ans. There are three type of lists in html.
+     1. Unorder list
+     2. Order list
+     3. Description list
+
+6.What is the ‘class’ attribute in HTML?
+Ans. The class attribute specifies one or more classnames for an element. 
+     The class attribute is mostly used to point to a class in a style sheet.
+
+7.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+Ans. A Class name can be used by multiple HTML elements, while an ID name must only be used by one HTML element within the page.
+
+8.What are the various formatting tags in HTML?
+Ans. HTML formatting tags are:-
+     1.  <b> - Bold text
+     2.  <strong> - Important text
+     3.  <i> - Italic text
+     4.  <em> - Emphasized text
+     5.  <mark> - Marked text
+     6.  <small> - Smaller text
+     7.  <del> - Deleted text
+     8.  <ins> - Inserted text
+     9.  <sub> - Subscript text
+     10. <sup> - Superscript text
+     11. <u> - Underline
+
+9.How is Cell Padding different from Cell Spacing?
+Ans. Cellpadding basically defines the space present between a table cell's border and the content present in it. 
+     Cellspacing basically defines the space present between individual adjacent cells. 
+     One can create it using the tag of HTML <table>, but it sets the type attribute to cellpadding.
+
+10.How can we club two or more rows or columns into a single row or column in an HTML table?
+Ans. It can be done by using the rowspan and colspan attribute in HTML. 
+     The rowspan is used to merge or combine the number of cells in a row whereas the colspan is used to merge column cells in a table
+
+11.What is the difference between a block-level element and an inline element?
+Ans. Block elements always start from a new line. Inline elements never start from a new line. 
+     Block elements cover space from left to right as far as it can go. 
+     Inline elements only cover the space as bounded by the tags in the HTML element.
+
+12.How to create a Hyperlink in HTML? 
+Ans. The <a> tag defines a hyperlink, which is used to link from one page to another.
+     The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+
+13.What is the use of an iframe tag? 
+Ans. An inline frame (iframe) is a HTML element that loads another HTML page within the document. It essentially puts another webpage within the parent page. 
+     They are commonly used for advertisements, maplink, embedded videos, web analytics and interactive content.
+
+14.What is the use of a span tag? Explain with example?
+Ans. The <span> tag is an inline container used to mark up a part of a text, or a part of a document. 
+     The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. 
+     The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+
+15.How to insert a picture into a background image of a web page?
+Ans. The most common & simple way to add background image is using the background image attribute inside the <body> tag. 
+     The background attribute which we specified in the <body> tag is not supported in HTML5.
+     Using CSS properties, we can also add background image in a webpage.
+
+16.How are active links different from normal links?
+Ans. Normal links are links which are there on the page and have not been clicked yet. 
+     Active links are those links, which have just been clicked at that instant
+
+17.What are the different tags to separate sections of text? 
+Ans. There are three tags that can be used to separate the texts:
+     1.<br> tag – Usually <br> tag is used to separate the line of text. 
+       It breaks the current line and conveys the flow to the next line.
+     2.<p> tag – This contains the text in the form of a new paragraph.
+     3.<blockquote> tag – It is used to define a large quoted section.
+
+18.What is SVG?
+Ans. SVG stands for Scalable Vector Graphics.
+     SVG is used to define vector-based graphics for the Web.
+     SVG defines the graphics in XML format.
+
+19.What is difference between HTML and XHTML?
+Ans. HTML is the standard markup language for creating web pages, 
+     while XHTML is a stricter and more standardized version of HTML. 
+     Both HTML and XHTML include a wide range of features, such as support for multimedia, styling, and scripting
+
+20.What are logical and physical tags in HTML?
+Ans. Logical tags are used to tell the browser what kind of text is written inside the tags. 
+     They are different from physical tags because physical tags are used to decide the appearance of the text and do not provide any information about the text.
+
+
+MODULE: 3 
+(HTML 5)
+
+
+1.What are the new tags added in HTML5?
+Ans. Header, Nav, Section, Article, Aside, Footer
+
+
+2.How to embed audio and video in a webpage?
+Ans. The <audio> element is used to embed audio files to a web page, and the <video> element is used to embed a video.
+
+3.Semantic element in HTML5?
+Ans. Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. 
+     Elements such as <header> , <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+
+4.Canvas and SVG tags 
+Ans. SVG is a language for describing 2D graphics in XML. 
+     Canvas draws 2D graphics, on the fly (with a JavaScript). 
+     SVG is XML based, which means that every element is available within the SVG DOM. 
+     You can attach JavaScript event handlers for an element.
+
+
